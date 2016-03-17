@@ -1,6 +1,15 @@
 var app=angular.module("app",['ngRoute']);
 
+app.controller("submitCtrl",function($scope){
 
+    
+    $scope.submitForm=function(){
+               alert("hihi")};  
+	});         
+               
+
+               
+            
 
 		
 	
