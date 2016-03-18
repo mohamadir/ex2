@@ -1,18 +1,14 @@
-var app=angular.module("app",['ngRoute']);
+var app=angular.module('app',['ngRoute']);
 
-app.controller("submitCtrl",function($scope){
+app.controller('submitCtr',['$scope',function($scope){
 
-    
-    $scope.submitForm=function(){
-               alert("hihi")};  
-	});         
-               
-
-               
-            
-
+ $scope.ok=function(){
+        
+        alert("Thank You for Contacting Us , u will recieve a message to your email soon, Good Day");
 		
-	
+    }  
+                             
+}]);         
 
 
 
